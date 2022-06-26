@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
 
         final ExecutorService threads = Executors.newFixedThreadPool(4);
-        final int sleepTime = 5_000;
+        final int sleepTime = 15_000;
 
         System.out.println("Погнали...");
 
