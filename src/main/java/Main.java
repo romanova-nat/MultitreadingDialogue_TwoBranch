@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("Погнали...");
 
-        final List<Future> task = new ArrayList<>();
+        final List<Future<String>> task = new ArrayList<>();
 
         task.add(threads.submit(new MyThread("Один")));
         task.add(threads.submit(new MyThread("Два")));
